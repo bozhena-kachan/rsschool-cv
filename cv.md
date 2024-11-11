@@ -36,7 +36,7 @@
 ## Skills
 - **HTML**
 - **CSS**
-- **JavaScript (basic)
+- **JavaScript (basic)**
 - **VSCode**
 - **Git / GitHub**
 
