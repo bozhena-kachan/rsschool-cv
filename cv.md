@@ -20,4 +20,4 @@ I am a junior front-end developer eager to apply my skills in real projects. I l
 ## Languages
 - Russian - native
 - English - B1
-- Polish - Fluent
+- Polish - B1
