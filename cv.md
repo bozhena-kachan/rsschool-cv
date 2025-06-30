@@ -3,6 +3,7 @@
 ## Contacts
 - Email: bozena@gmail.com
 - GitHub: [github.com/bozhena-kachan](https://github.com/bozhena-kachan)
+- Linkedln: [linkedln.com/in/your-profile]#
 
 ## About Me
 I am a junior front-end developer eager to apply my skills in real projects. I learning, pay attention to details, and strive for continuous improvement.
