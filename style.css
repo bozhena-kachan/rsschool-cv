@@ -1,5 +1,94 @@
+/* Общие настройки */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #f9f9f9;
-  margin: 20px;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
 }
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+/* Заголовки */
+.main-title {
+  font-size: 32px;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Фото */
+.profile-photo {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+  border: 2px solid #ccc;
+}
+
+/* Секции */
+.section {
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 24px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* Списки */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Пример кода */
+pre {
+  background-color: #f0f0f0;
+  padding: 10px;
+  overflow-x: auto;
+}
+
+code {
+  font-family: Consolas, monospace;
+}
+
+/* Footer */
+.footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  font-size: 14px;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+.footer img {
+  margin-left: 10px;
+  vertical-align: middle;
+  height: 20px;
+}
+
