@@ -1,124 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Bozhena Kachan — CV</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bozhena Kachan — CV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Навигация -->
+    <nav class="top-nav">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#languages">Languages</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+      </ul>
+    </nav>
 
-  <header class="header">
     <div class="container">
-      <h1 class="main-title">Bozhena Kachan</h1>
-      <p class="subtitle">Junior Front-End Developer</p>
+      <!-- Левая колонка -->
+      <aside class="left-column">
+        <img src="assets/img/img.jpg" alt="Bozhena Kachan photo" class="profile-photo" />
 
-      <!-- Навигация -->
-      <nav class="nav">
-        <a href="#summary">Summary</a>
-        <a href="#skills">Skills</a>
-        <a href="#code">Code</a>
-        <a href="#projects">Projects</a>
-        <a href="#education">Education</a>
-        <a href="#languages">Languages</a>
-        <a href="#contacts">Contacts</a>
-      </nav>
-
-      <!-- Фото -->
-      <img src="assets/img/img.jpg" alt="Bozhena Kachan" class="profile-photo" />
-
-    </div>
-  </header>
-
-  <main class="main container">
-
-    <section id="contacts">
-      <h2>Contacts</h2>
-      <ul>
-        <li>Email: <a href="mailto:kachanbozhena@gmail.com">kachanbozhena@gmail.com</a></li>
-        <li>GitHub: <a href="https://github.com/bozhena-kachan" target="_blank">bozhena-kachan</a></li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/bozhena-kachan" target="_blank">LinkedIn</a></li>
-        <li>Discord: bozena_kachan</li>
-      </ul>
-    </section>
-
-    <section id="summary">
-      <h2>Summary</h2>
-      <p>
-        I’m a passionate and motivated front-end developer with a creative background and strong attention to detail. Currently studying at RS School. I love creating responsive and visually appealing websites, and I’m constantly learning and improving my skills.
-      </p>
-    </section>
-
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>HTML5, CSS3</li>
-        <li>JavaScript</li>
-        <li>Responsive Web Design</li>
-        <li>Git, GitHub</li>
-        <li>Figma, Adobe XD (basic)</li>
-        <li>VS Code, Chrome DevTools</li>
-      </ul>
-    </section>
-
-    <section id="code">
-      <h2>Code Example</h2>
-<pre><code>function getSum(a, b) {
-  return a + b;
-}</code></pre>
-      <p>Simple function that returns the sum of two numbers. Solved on <a href="https://www.codewars.com/" target="_blank">Codewars</a>.</p>
-    </section>
-
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li>
-          <strong>CV Project</strong> —
-          <a href="https://bozhena-kachan.github.io/rsschool-cv/" target="_blank">Demo</a> |
-          <a href="https://github.com/bozhena-kachan/rsschool-cv" target="_blank">Code</a>
-        </li>
-      </ul>
-    </section>
-
-    <section id="education">
-      <h2>Education</h2>
-      <ul>
-        <li><strong>Yanka Kupala State University of Grodno</strong> — Bachelor in World Economy (2012–2017)</li>
-        <li><strong>Yanka Kupala State University of Grodno</strong> — Master’s in World Economy (2017–2018)</li>
-        <li><strong>Udemy Courses:</strong>
-          <ul>
-            <li>Web Development</li>
-            <li>JavaScript + React (in progress)</li>
+        <section id="contacts">
+          <h2>Contacts</h2>
+          <ul class="icons-list">
+            <li><img src="assets/img/gmail.svg" alt="Email" /><a href="mailto:kachanbozhena@gmail.com">kachanbozhena@gmail.com</a></li>
+            <li><img src="assets/img/github.svg" alt="GitHub" /><a href="https://github.com/bozhena-kachan" target="_blank">bozhena-kachan</a></li>
+            <li><img src="assets/img/linkedin.svg" alt="LinkedIn" /><a href="https://linkedin.com/in/bozhena-kachan" target="_blank">LinkedIn</a></li>
+            <li><img src="assets/img/discord.svg" alt="Discord" />bozena_kachan</li>
+            <li><strong>Wroclaw, Poland</strong></li>
           </ul>
-        </li>
-        <li><strong>Rolling Scopes School</strong> — Front-End Course (in progress), 2025</li>
-      </ul>
-    </section>
+        </section>
 
-    <section id="languages">
-      <h2>Languages</h2>
-      <ul>
-        <li>English — B1/B2</li>
-        <li>Russian — Native</li>
-        <li>Polish — B1</li>
-      </ul>
-    </section>
+        <section id="education">
+          <h2>Education</h2>
+          <ul class="edu-list">
+            <li><img src="assets/img/grsu.png" alt="GrSU" /> GrSU Yanka Kupala — Bachelor, World Economy (2012–2017)</li>
+            <li><img src="assets/img/grsu.png" alt="GrSU" /> GrSU Yanka Kupala — Master, World Economy (2017–2018)</li>
+            <li><img src="assets/img/udemy.svg" alt="Udemy" /> Udemy — Web Development, JS + React (in progress)</li>
+            <li><img src="assets/img/rs.png" alt="RS School" /> RS School — Front-End Course (2025, in progress)</li>
+          </ul>
+        </section>
 
-  </main>
+        <section id="skills">
+          <h2>Skills</h2>
+          <ul class="icons-list">
+            <li><img src="assets/img/html5.svg" alt="HTML5" />HTML5</li>
+            <li><img src="assets/img/css3.svg" alt="CSS3" />CSS3</li>
+            <li><img src="assets/img/javascript.svg" alt="JavaScript" />JavaScript</li>
+            <li><img src="assets/img/git.svg" alt="Git" />Git</li>
+            <li><img src="assets/img/figma-i.svg" alt="Figma" />Figma</li>
+            <li><img src="assets/img/vscode.svg" alt="VS Code" />VS Code</li>
+          </ul>
+        </section>
 
-  <footer class="footer">
-    <div class="container">
-      <p>© 2025 Bozhena Kachan | <a href="https://github.com/bozhena-kachan" target="_blank">GitHub</a></p>
-      <a href="https://rs.school/courses/javascript-ru" target="_blank">
-        <img src="assets/img/rs-school-logo.svg" alt="RS School Logo" class="rss-logo" />
-      </a>
+        <section id="languages">
+          <h2>Languages</h2>
+          <ul class="lang-list">
+             <li>🇬🇧 English — B1/B2 (intermediate)</li>
+             <li>🇷🇺 Russian — native</li>
+             <li>🇵🇱 Polish — B1 (conversational)</li>
+
+          </ul>
+        </section>
+      </aside>
+
+      <!-- Правая колонка -->
+      <main class="right-column">
+        <header>
+          <h1>Bozhena Kachan</h1>
+          <p class="job-title">Junior Front-End Developer</p>
+        </header>
+
+        <section id="about">
+          <h2>About Me</h2>
+          <p>I’m a passionate and detail-oriented front-end developer. I love creating responsive, clean, and accessible web interfaces. Currently studying at RS School and taking online courses to level up my skills. I’m a fast learner, responsible, and always striving for perfection.</p>
+        </section>
+
+        <section id="code">
+          <h2>Code Example</h2>
+          <pre><code>
+function getSum(a, b) {
+  return a + b;
+}
+          </code></pre>
+          <p>Simple function that returns the sum of two numbers. Solved on <a href="https://www.codewars.com/" target="_blank">Codewars</a>.</p>
+        </section>
+
+        <section id="projects">
+          <h2>Projects</h2>
+          <ul>
+            <li>
+              <strong>CV Project</strong> —
+              <a href="https://bozhena-kachan.github.io/rsschool-cv/" target="_blank">Demo</a> |
+              <a href="https://github.com/bozhena-kachan/rsschool-cv" target="_blank">Code</a>
+            </li>
+          </ul>
+        </section>
+
+        <section id="hobbies">
+          <h2>Hobbies</h2>
+          <ul>
+            <li>Sport</li>
+            <li>Photography</li>
+            <li>Travel</li>
+            <li>Foreign languages</li>
+          </ul>
+        </section>
+      </main>
     </div>
-  </footer>
 
-</body>
+    <!-- Футер -->
+    <footer>
+      <p>© 2025 Bozhena Kachan</p>
+      <a href="https://github.com/bozhena-kachan" target="_blank">GitHub</a> |
+      <a href="https://rs.school/" target="_blank">
+        <img src="assets/img/rs-school-logo.svg" alt="RS School" class="rs-logo" />
+      </a>
+    </footer>
+  </body>
 </html>
-
-
 
